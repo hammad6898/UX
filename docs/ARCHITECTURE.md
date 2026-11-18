@@ -148,7 +148,7 @@ Two modes:
 
 ## 6. AI usage plan (Claude)
 
-- **Default model: `claude-opus-5-5`** ($4 / $20 per 1M input/output tokens) for screen heuristics, flow reasoning and fix generation. Adaptive thinking; set `effort` per step (e.g. `low` for verification, `high` for flow analysis and fixes). Note that Opus 5.5 defaults to `medium`, so set it explicitly.
+- **Model assignment (reliability first, see `COST_MODEL.md` §2):** `claude-fable-5-2` ($8 / $40 per 1M input/output tokens) for screen heuristics, flow reasoning, the roadmap and fix generation; `claude-opus-5-5` ($4 / $20) for the high-volume explorer agent (escalating to Fable when stuck) and the verification pass. Adaptive thinking; set `effort` per step (e.g. `low` for verification, `high` for flow analysis and fixes). Note that Opus 5.5 defaults to `medium`, so set it explicitly.
 - **Structured outputs** (`output_config.format` with a JSON schema) for every finding, so the analysis returns typed data, never prose to parse.
 - **Prompt caching**: the Heuristic Library + system prompt are large and identical across calls. Put them first with `cache_control`, so cached reads cost a fraction of the price.
 - **Message Batches API (50% cheaper)** for Deep Audit screen analysis, which isn't latency-sensitive. Quick Check uses streaming for live results.
