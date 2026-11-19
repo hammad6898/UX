@@ -1,0 +1,279 @@
+{
+ "generated": "2026-11-19",
+ "rows": 10386,
+ "sheets": {
+  "Audit_Rules": 157,
+  "Heuristics": 429,
+  "Laws_Principles": 131,
+  "Biases_Behavior": 87,
+  "Deceptive_Patterns": 98,
+  "Metrics_Methods": 77,
+  "Thresholds": 49,
+  "WCAG22_SC": 87,
+  "WCAG_Failures": 96,
+  "WCAG_Techniques": 351,
+  "WCAG3_Draft": 245,
+  "ACT_Rules": 94,
+  "ARIA_Patterns": 30,
+  "COGA_Patterns": 59,
+  "Axe_Rules": 105,
+  "Lighthouse": 59,
+  "Checklists": 454,
+  "DesignSystems": 6490,
+  "Gov_Content_Service": 1288
+ },
+ "sources": [
+  {
+   "source_set": "Curated: audit rules (evidence-based)",
+   "kb_layer": "Curated knowledge",
+   "rows": 157,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited research"
+  },
+  {
+   "source_set": "Curated: heuristic sets",
+   "kb_layer": "Curated knowledge",
+   "rows": 429,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "Curated: laws & principles",
+   "kb_layer": "Curated knowledge",
+   "rows": 131,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "Curated: cognitive biases & behavioral effects",
+   "kb_layer": "Curated knowledge",
+   "rows": 87,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "Curated: deceptive (dark) pattern taxonomies",
+   "kb_layer": "Curated knowledge",
+   "rows": 98,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "Curated: numeric thresholds",
+   "kb_layer": "Curated knowledge",
+   "rows": 49,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "Curated: metrics & questionnaires",
+   "kb_layer": "Curated knowledge",
+   "rows": 38,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "Curated: research & evaluation methods",
+   "kb_layer": "Curated knowledge",
+   "rows": 39,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Written for this KB from cited sources"
+  },
+  {
+   "source_set": "WCAG 2.2",
+   "kb_layer": "Standard (normative)",
+   "rows": 87,
+   "license": "W3C Document License (copy with attribution)",
+   "obtained_from": "https://github.com/w3c/wcag"
+  },
+  {
+   "source_set": "WCAG Techniques: Common Failures",
+   "kb_layer": "Standard (informative)",
+   "rows": 96,
+   "license": "W3C Document License (copy with attribution)",
+   "obtained_from": "https://github.com/w3c/wcag"
+  },
+  {
+   "source_set": "WCAG Techniques: Sufficient/Advisory",
+   "kb_layer": "Standard (informative)",
+   "rows": 351,
+   "license": "W3C Document License (copy with attribution)",
+   "obtained_from": "https://github.com/w3c/wcag"
+  },
+  {
+   "source_set": "WCAG 3.0 (Working Draft)",
+   "kb_layer": "Standard (draft)",
+   "rows": 245,
+   "license": "W3C Document License",
+   "obtained_from": "https://github.com/w3c/wcag3"
+  },
+  {
+   "source_set": "W3C ACT Rules (Accessibility Conformance Testing)",
+   "kb_layer": "Automated/semi-automated test rules",
+   "rows": 94,
+   "license": "W3C Document License",
+   "obtained_from": "https://github.com/act-rules/act-rules.github.io"
+  },
+  {
+   "source_set": "WAI-ARIA Authoring Practices Guide (APG) patterns",
+   "kb_layer": "Standard (informative)",
+   "rows": 30,
+   "license": "W3C Software and Document License",
+   "obtained_from": "https://github.com/w3c/aria-practices"
+  },
+  {
+   "source_set": "W3C Making Content Usable for People with Cognitive and Learning Disabilities (COGA)",
+   "kb_layer": "Standard (informative)",
+   "rows": 59,
+   "license": "W3C Document License",
+   "obtained_from": "https://github.com/w3c/coga"
+  },
+  {
+   "source_set": "axe-core rules (Deque)",
+   "kb_layer": "Automated checks",
+   "rows": 105,
+   "license": "MPL-2.0",
+   "obtained_from": "https://github.com/dequelabs/axe-core"
+  },
+  {
+   "source_set": "Lighthouse audits (Google)",
+   "kb_layer": "Automated checks",
+   "rows": 54,
+   "license": "Apache-2.0",
+   "obtained_from": "https://github.com/GoogleChrome/lighthouse"
+  },
+  {
+   "source_set": "Core Web Vitals / web.dev thresholds",
+   "kb_layer": "Automated checks",
+   "rows": 5,
+   "license": "facts (not copyrightable)",
+   "obtained_from": "https://github.com/GoogleChrome/lighthouse"
+  },
+  {
+   "source_set": "The A11Y Project Checklist",
+   "kb_layer": "Practitioner checklist",
+   "rows": 68,
+   "license": "Apache-2.0",
+   "obtained_from": "https://github.com/a11yproject/a11yproject.com"
+  },
+  {
+   "source_set": "Front-End Checklist (rules)",
+   "kb_layer": "Practitioner checklist",
+   "rows": 386,
+   "license": "MIT",
+   "obtained_from": "https://github.com/thedaviddias/Front-End-Checklist"
+  },
+  {
+   "source_set": "GOV.UK Design System",
+   "kb_layer": "Design system guidance",
+   "rows": 711,
+   "license": "MIT (code) / Open Government Licence v3.0 (content)",
+   "obtained_from": "https://github.com/alphagov/govuk-design-system"
+  },
+  {
+   "source_set": "NHS digital service manual",
+   "kb_layer": "Design system guidance",
+   "rows": 930,
+   "license": "Open Government Licence v3.0",
+   "obtained_from": "https://github.com/nhsuk/nhsuk-service-manual"
+  },
+  {
+   "source_set": "U.S. Web Design System (USWDS)",
+   "kb_layer": "Design system guidance",
+   "rows": 637,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/uswds/uswds-site"
+  },
+  {
+   "source_set": "IBM Carbon Design System",
+   "kb_layer": "Design system guidance",
+   "rows": 2117,
+   "license": "Apache-2.0",
+   "obtained_from": "https://github.com/carbon-design-system/carbon-website"
+  },
+  {
+   "source_set": "Shopify Polaris",
+   "kb_layer": "Design system guidance",
+   "rows": 981,
+   "license": "MIT",
+   "obtained_from": "https://github.com/Shopify/polaris"
+  },
+  {
+   "source_set": "GitHub Primer Design System",
+   "kb_layer": "Design system guidance",
+   "rows": 1114,
+   "license": "MIT",
+   "obtained_from": "https://github.com/primer/design"
+  },
+  {
+   "source_set": "18F Content Guide",
+   "kb_layer": "Government content & service guidance",
+   "rows": 145,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/18F/content-guide"
+  },
+  {
+   "source_set": "18F UX Guide",
+   "kb_layer": "Government content & service guidance",
+   "rows": 313,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/18F/ux-guide"
+  },
+  {
+   "source_set": "18F Accessibility Guide",
+   "kb_layer": "Government content & service guidance",
+   "rows": 56,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/18F/accessibility"
+  },
+  {
+   "source_set": "Federal Plain Language Guidelines (plainlanguage.gov)",
+   "kb_layer": "Government content & service guidance",
+   "rows": 153,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/GSA/plainlanguage.gov"
+  },
+  {
+   "source_set": "Digital.gov guides (HCD, Mobile principles, Accessibility for teams)",
+   "kb_layer": "Government content & service guidance",
+   "rows": 403,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/GSA/digitalgov.gov"
+  },
+  {
+   "source_set": "U.S. Digital Services Playbook (13 plays)",
+   "kb_layer": "Government content & service guidance",
+   "rows": 183,
+   "license": "Public domain (US Gov)",
+   "obtained_from": "https://github.com/usds/playbook"
+  },
+  {
+   "source_set": "18F Methods",
+   "kb_layer": "Government content & service guidance",
+   "rows": 35,
+   "license": "Public domain (US Gov) / CC0",
+   "obtained_from": "https://github.com/18F/methods"
+  },
+  {
+   "source_set": "Heuristic set index",
+   "kb_layer": "Curated knowledge",
+   "rows": 53,
+   "license": "Original summary written for this knowledge base (free to use); cite the original source",
+   "obtained_from": "Curated"
+  },
+  {
+   "source_set": "Bibliography 1908–2025",
+   "kb_layer": "Curated knowledge",
+   "rows": 298,
+   "license": "Citations (facts)",
+   "obtained_from": "Curated"
+  },
+  {
+   "source_set": "Dark pattern instances (Mathur et al. 2019; Yada et al. 2022)",
+   "kb_layer": "Research dataset",
+   "rows": 4174,
+   "license": "GPL-3.0 (Mathur) / Apache-2.0 (Yada repo)",
+   "obtained_from": "https://github.com/aruneshmathur/dark-patterns ; https://github.com/yamanalab/ec-darkpattern"
+  }
+ ]
+}
